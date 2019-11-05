@@ -11,5 +11,9 @@
 	"framer": {
 		"id": "55683064-73cf-49a7-93bb-88d055fc2975"
 	},
-	"author": "Jesse Kuntz"
+	"author": "Jesse Kuntz",
+	"dependencies": {
+		"@framer/mikejohnson.material-icons": "^1.3.0",
+		"@framer/steveruizok.flow": "^1.55.0"
+	}
 }
