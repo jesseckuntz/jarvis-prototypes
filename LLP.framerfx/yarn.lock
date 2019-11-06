@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@framer/framer.device-skin-apple-iphone-se-gold@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/framer.device-skin-apple-iphone-se-gold/-/@framer/framer.device-skin-apple-iphone-se-gold-1.0.0.tgz#47b3c563506c916711bb1e9d343034bc341742b6"
+  integrity sha512-h16u5ZaS3yM6oihuUcikHumP2t6Ndlw4JjkYHOwdw7BtLCP4aUcV20S4e5yVzrYyuFnfaFCmE4SjemqX8i7mVQ==
+
 "@framer/mikejohnson.material-icons@^1.3.0":
   version "1.3.0"
   resolved "https://registry.framer.com/@framer/mikejohnson.material-icons/-/@framer/mikejohnson.material-icons-1.3.0.tgz#8440b8b731918773028b7e6d15951cc519a5fd28"
