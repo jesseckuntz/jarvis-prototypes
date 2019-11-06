@@ -1,6 +1,7 @@
-import { Data, Override } from "framer"
+import { Data, Override, useAnimation, Color } from "framer"
+import { colors } from "./canvas"
 // @ts-ignore
-import { showNext, showPrevious } from "@framer/steveruizok.flow/code"
+// import { showNext, showPrevious } from "@framer/steveruizok.flow/code"
 
 const data = Data({
     selected: null,
@@ -11,28 +12,24 @@ const data = Data({
     isQ2Answered: false,
 })
 
-const answerBgColor = "#E8E8E8"
+const lightGrey = Color("#E8E8E8")
+const actionBlue = Color("#4D6DD1")
+const lightActionBlue = Color.lighten(actionBlue, 30)
 
 export function Answer(props): Override {
     const { id } = props
     const isSelected = data.selected === id
     const radio = props.children[0].props.children[0].props.id
-    const correctAnswers = ["id_WaHC1isQm", "id_RGQCCzH8j"]
+    const controls = useAnimation()
 
     return {
-        variants: {
-            active: {
-                background: answerBgColor,
-            },
-            resting: {
-                background: "#fff",
-            },
-        },
         initial: "resting",
-        animate: isSelected ? "active" : "resting",
+        background: "#fff",
+        animate: controls,
         whileHover: {
-            background: answerBgColor,
+            scale: 1.025,
         },
+
         onTap() {
             data.selectedRadio = radio
             data.selected = isSelected ? null : id
@@ -42,20 +39,18 @@ export function Answer(props): Override {
 
             if (data.isQ1Answered) data.answeredQuestionCount = 1
             if (data.isQ2Answered) data.answeredQuestionCount = 2
-            
-            data.currentQuestion += 1
+
+            controls.start({
+                backgroundColor: lightActionBlue,
+                transition: { loop: 4, duration: 0.25 },
+            })
+
+            setTimeout(() => {
+                data.currentQuestion += 1
+            }, 1000)
         },
     }
 }
-
-// export function Flow(props): Override {
-//     return {
-//         onChangePage(c, p) {
-//             console.log(c, p)
-//             data.currentQuestion = p
-//         },
-//     }
-// }
 
 export function Page(props): Override {
     return {
