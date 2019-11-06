@@ -42,20 +42,20 @@ export function Answer(props): Override {
 
             if (data.isQ1Answered) data.answeredQuestionCount = 1
             if (data.isQ2Answered) data.answeredQuestionCount = 2
-
+            
             data.currentQuestion += 1
         },
     }
 }
 
-export function Flow(props): Override {
-    return {
-        onChangePage(c, p) {
-            console.log(c, p)
-            data.currentQuestion = p
-        },
-    }
-}
+// export function Flow(props): Override {
+//     return {
+//         onChangePage(c, p) {
+//             console.log(c, p)
+//             data.currentQuestion = p
+//         },
+//     }
+// }
 
 export function Page(props): Override {
     return {
@@ -89,6 +89,7 @@ export function Progress(props): Override {
         },
         transition: {
             ease: "easeInOut",
+            duration: 0.5,
         },
     }
 }
