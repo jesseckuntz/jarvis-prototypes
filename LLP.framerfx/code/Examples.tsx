@@ -1,7 +1,5 @@
-import { Data, Override, useAnimation, Color } from "framer"
+import { Data, Override, Color } from "framer"
 import { colors } from "./canvas"
-// @ts-ignore
-// import { showNext, showPrevious } from "@framer/steveruizok.flow/code"
 
 const data = Data({
     selected: null,
@@ -20,8 +18,6 @@ export function Answer(props): Override {
     const { id } = props
     const isSelected = data.selected === id
     const radio = props.children[0].props.children[0].props.id
-    const controls = useAnimation()
-
     return {
         variants: {
             resting: {
@@ -39,23 +35,10 @@ export function Answer(props): Override {
 
         onTap() {
             data.selectedRadio = radio
-            // data.selected = isSelected ? null : id
             data.selected = id
 
             if (data.currentQuestion === 1) data.isQ1Answered = true
             if (data.currentQuestion === 2) data.isQ2Answered = true
-
-            // if (data.isQ1Answered) data.answeredQuestionCount = 1
-            // if (data.isQ2Answered) data.answeredQuestionCount = 2
-
-            // controls.start({
-            //     backgroundColor: data.selected ? lightActionBlue : "#fff",
-            //     transition: { loop: 0, duration: 0.25 },
-            // })
-
-            // setTimeout(() => {
-            //     data.currentQuestion += 1
-            // }, 1000)
         },
     }
 }
@@ -63,10 +46,6 @@ export function Answer(props): Override {
 export function Page(props): Override {
     return {
         currentPage: data.currentQuestion,
-        // onChangePage(currentIndex, previousIndex) {
-        //     console.log(data.currentQuestion)
-        //     if (data.isQ1Answered) data.answeredQuestionCount = 1
-        // },
     }
 }
 
@@ -75,14 +54,6 @@ export function Radio(props): Override {
 
     return {
         visible: data.selectedRadio === id ? true : false,
-    }
-}
-
-export function ShowOnQuestions(props): Override {
-    return {
-        animate: {
-            opacity: data.currentQuestion === 0 ? 0 : 1,
-        },
     }
 }
 
@@ -121,20 +92,6 @@ export function NextQuestion(): Override {
 
             if (data.isQ1Answered) data.answeredQuestionCount = 1
             if (data.isQ2Answered) data.answeredQuestionCount = 2
-        },
-    }
-}
-
-export function PreviousQuestion(): Override {
-    return {
-        opacity:
-            data.currentQuestion === 2 && data.isQ1Answered
-                ? 1
-                : data.currentQuestion === 3 && data.isQ2Answered
-                ? 1
-                : 0.5,
-        onTap() {
-            data.currentQuestion -= 1
         },
     }
 }
