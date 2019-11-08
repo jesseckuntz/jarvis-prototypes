@@ -63,6 +63,16 @@
                         {
                           "length" : 86,
                           "offset" : 0,
+                          "style" : "LETTERSPACING:0.42"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "ALIGN:left"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
                           "style" : "SIZE:24"
                         },
                         {
@@ -129,16 +139,6 @@
                           "length" : 86,
                           "offset" : 0,
                           "style" : "LINEHEIGHT:1.2"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "LETTERSPACING:0.42"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "ALIGN:left"
                         }
                       ],
                       "key" : "1qe46",
@@ -356,9 +356,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -512,9 +512,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -668,9 +668,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -824,9 +824,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -3300,9 +3300,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -3456,9 +3456,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -3612,9 +3612,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -3768,9 +3768,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -4347,7 +4347,7 @@
             "blendingMode" : "normal",
             "bottom" : 24,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.96640826873385011,
+            "centerAnchorY" : 0.96551724137931039,
             "children" : [
 
             ],
@@ -8209,9 +8209,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -8365,9 +8365,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -8521,9 +8521,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -8677,9 +8677,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -8833,9 +8833,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -9613,9 +9613,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -9769,9 +9769,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -9925,9 +9925,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -10081,9 +10081,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -10237,9 +10237,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 213
+                                "width" : 469
                               },
-                              "width" : 212
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -11128,9 +11128,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -11284,9 +11284,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -11440,9 +11440,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -11596,9 +11596,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 181
+                                "width" : 469
                               },
-                              "width" : 180
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -16026,6 +16026,31 @@
                       ],
                       "inlineStyleRanges" : [
                         {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "SIZE:24"
+                        },
+                        {
+                          "length" : 2,
+                          "offset" : 34,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
+                          "length" : 2,
+                          "offset" : 57,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 80,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 84,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
                           "length" : 2,
                           "offset" : 0,
                           "style" : "FONT:GF;PT Sans-700"
@@ -16079,31 +16104,6 @@
                           "length" : 86,
                           "offset" : 0,
                           "style" : "ALIGN:left"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "SIZE:24"
-                        },
-                        {
-                          "length" : 2,
-                          "offset" : 34,
-                          "style" : "FONT:CMUSerif-Italic"
-                        },
-                        {
-                          "length" : 2,
-                          "offset" : 57,
-                          "style" : "FONT:CMUSerif-Italic"
-                        },
-                        {
-                          "length" : 1,
-                          "offset" : 80,
-                          "style" : "FONT:CMUSerif-Italic"
-                        },
-                        {
-                          "length" : 1,
-                          "offset" : 84,
-                          "style" : "FONT:CMUSerif-Italic"
                         }
                       ],
                       "key" : "1qe46",
@@ -27622,6 +27622,16 @@
                       ],
                       "inlineStyleRanges" : [
                         {
+                          "length" : 2,
+                          "offset" : 0,
+                          "style" : "FONT:GF;PT Sans-700"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "COLOR:rgb(0, 0, 0)"
+                        },
+                        {
                           "length" : 3,
                           "offset" : 81,
                           "style" : "FONT:CMUSerif-Roman"
@@ -27690,16 +27700,6 @@
                           "length" : 1,
                           "offset" : 84,
                           "style" : "FONT:CMUSerif-Italic"
-                        },
-                        {
-                          "length" : 2,
-                          "offset" : 0,
-                          "style" : "FONT:GF;PT Sans-700"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "COLOR:rgb(0, 0, 0)"
                         }
                       ],
                       "key" : "1qe46",
@@ -31773,9 +31773,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -31929,9 +31929,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -32085,9 +32085,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -32241,9 +32241,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
