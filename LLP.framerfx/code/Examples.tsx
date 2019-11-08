@@ -23,31 +23,39 @@ export function Answer(props): Override {
     const controls = useAnimation()
 
     return {
+        variants: {
+            resting: {
+                background: "#fff",
+            },
+            selected: {
+                background: lightActionBlue,
+            },
+        },
         initial: "resting",
-        background: "#fff",
-        animate: controls,
+        animate: isSelected ? "selected" : "resting",
         whileHover: {
             scale: 1.025,
         },
 
         onTap() {
             data.selectedRadio = radio
-            data.selected = isSelected ? null : id
+            // data.selected = isSelected ? null : id
+            data.selected = id
 
             if (data.currentQuestion === 1) data.isQ1Answered = true
             if (data.currentQuestion === 2) data.isQ2Answered = true
 
-            if (data.isQ1Answered) data.answeredQuestionCount = 1
-            if (data.isQ2Answered) data.answeredQuestionCount = 2
+            // if (data.isQ1Answered) data.answeredQuestionCount = 1
+            // if (data.isQ2Answered) data.answeredQuestionCount = 2
 
-            controls.start({
-                backgroundColor: lightActionBlue,
-                transition: { loop: 4, duration: 0.25 },
-            })
+            // controls.start({
+            //     backgroundColor: data.selected ? lightActionBlue : "#fff",
+            //     transition: { loop: 0, duration: 0.25 },
+            // })
 
-            setTimeout(() => {
-                data.currentQuestion += 1
-            }, 1000)
+            // setTimeout(() => {
+            //     data.currentQuestion += 1
+            // }, 1000)
         },
     }
 }
@@ -55,6 +63,10 @@ export function Answer(props): Override {
 export function Page(props): Override {
     return {
         currentPage: data.currentQuestion,
+        // onChangePage(currentIndex, previousIndex) {
+        //     console.log(data.currentQuestion)
+        //     if (data.isQ1Answered) data.answeredQuestionCount = 1
+        // },
     }
 }
 
@@ -100,7 +112,15 @@ export function NextQuestion(): Override {
                 ? 1
                 : 0.5,
         onTap() {
-            data.currentQuestion += 1
+            if (data.currentQuestion === 0) data.currentQuestion += 1
+            else if (data.currentQuestion === 1 && data.isQ1Answered)
+                data.currentQuestion += 1
+            else if (data.currentQuestion === 2 && data.isQ2Answered)
+                data.currentQuestion += 1
+            else null
+
+            if (data.isQ1Answered) data.answeredQuestionCount = 1
+            if (data.isQ2Answered) data.answeredQuestionCount = 2
         },
     }
 }

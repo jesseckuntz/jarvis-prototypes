@@ -63,16 +63,6 @@
                         {
                           "length" : 86,
                           "offset" : 0,
-                          "style" : "LETTERSPACING:0.42"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "ALIGN:left"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
                           "style" : "SIZE:24"
                         },
                         {
@@ -139,6 +129,16 @@
                           "length" : 86,
                           "offset" : 0,
                           "style" : "LINEHEIGHT:1.2"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0.42"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "ALIGN:left"
                         }
                       ],
                       "key" : "1qe46",
@@ -356,9 +356,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 469
+                                "width" : 101
                               },
-                              "width" : 468
+                              "width" : 100
                             },
                             "entityMap" : {
 
@@ -512,9 +512,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 469
+                                "width" : 101
                               },
-                              "width" : 468
+                              "width" : 100
                             },
                             "entityMap" : {
 
@@ -668,9 +668,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 469
+                                "width" : 101
                               },
-                              "width" : 468
+                              "width" : 100
                             },
                             "entityMap" : {
 
@@ -824,9 +824,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 469
+                                "width" : 101
                               },
-                              "width" : 468
+                              "width" : 100
                             },
                             "entityMap" : {
 
@@ -1932,7 +1932,7 @@
                 "right" : 8,
                 "rotation" : 0,
                 "top" : 9,
-                "visible" : true,
+                "visible" : false,
                 "width" : 101,
                 "widthType" : 0
               },
@@ -3005,6 +3005,26 @@
                       ],
                       "inlineStyleRanges" : [
                         {
+                          "length" : 1,
+                          "offset" : 80,
+                          "style" : "ITALIC"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.2"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0.42"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "ALIGN:left"
+                        },
+                        {
                           "length" : 86,
                           "offset" : 0,
                           "style" : "SIZE:24"
@@ -3063,26 +3083,6 @@
                           "length" : 1,
                           "offset" : 85,
                           "style" : "FONT:GF;PT Sans-regular"
-                        },
-                        {
-                          "length" : 1,
-                          "offset" : 80,
-                          "style" : "ITALIC"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "LINEHEIGHT:1.2"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "LETTERSPACING:0.42"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "ALIGN:left"
                         }
                       ],
                       "key" : "1qe46",
@@ -8014,8 +8014,8 @@
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "bottom" : null,
-                "centerAnchorX" : 0.52611940298507465,
-                "centerAnchorY" : 0.3011744966442953,
+                "centerAnchorX" : 0.47201492537313433,
+                "centerAnchorY" : 0.28526645768025077,
                 "children" : [
 
                 ],
@@ -8040,7 +8040,7 @@
                 "guidesY" : [
 
                 ],
-                "height" : 259,
+                "height" : 185.51724137931035,
                 "heightType" : 0,
                 "id" : "rnKzjRNCC",
                 "intrinsicHeight" : 134.5,
@@ -8048,7 +8048,7 @@
                 "isExternalMaster" : null,
                 "isMaster" : false,
                 "isTarget" : false,
-                "left" : null,
+                "left" : 155,
                 "locked" : false,
                 "name" : "pasted_image_0",
                 "navigationTarget" : null,
@@ -8067,19 +8067,19 @@
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
                 "replicaInfo" : null,
-                "right" : 114,
+                "right" : null,
                 "rotation" : 0,
-                "top" : 50,
+                "top" : 91,
                 "visible" : true,
-                "width" : 280,
+                "width" : 200,
                 "widthType" : 0
               },
               {
                 "__class" : "CodeComponentNode",
                 "aspectRatio" : null,
-                "bottom" : null,
+                "bottom" : 47,
                 "centerAnchorX" : 0.5,
-                "centerAnchorY" : 0.59116541353383456,
+                "centerAnchorY" : 0.72413793103448276,
                 "children" : [
                   {
                     "__class" : "FrameNode",
@@ -8890,8 +8890,8 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
-                "height" : 1,
-                "heightType" : 3,
+                "height" : 258,
+                "heightType" : 0,
                 "id" : "NlZLwTIEC",
                 "intrinsicHeight" : null,
                 "intrinsicWidth" : null,
@@ -8921,21 +8921,171 @@
                 "aspectRatio" : null,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
-                "bottom" : null,
-                "centerAnchorX" : 0.7982758620689655,
-                "centerAnchorY" : 0.95545657015590202,
+                "bottom" : 0,
+                "centerAnchorX" : 0.50093283582089554,
+                "centerAnchorY" : 0.96865203761755481,
                 "children" : [
+                  {
+                    "__class" : "FrameNode",
+                    "aspectRatio" : null,
+                    "blendingEnabled" : 0,
+                    "blendingMode" : "normal",
+                    "bottom" : null,
+                    "centerAnchorX" : 0.5,
+                    "centerAnchorY" : 0.5,
+                    "children" : [
 
+                    ],
+                    "clip" : true,
+                    "codeOverrideEnabled" : true,
+                    "codeOverrideFile" : ".\/Examples.tsx",
+                    "codeOverrideIdentifier" : ".\/Examples.tsx_NextQuestion",
+                    "codeOverrideName" : "NextQuestion",
+                    "constraintsLocked" : true,
+                    "deviceType" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "var(--token-bc69a328-33c8-4400-b266-d84cd643dbf5, rgb(255, 255, 255)) \/* {\"name\":\"Action Blue\"} *\/",
+                    "fillEnabled" : true,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "guidesX" : [
+
+                    ],
+                    "guidesY" : [
+
+                    ],
+                    "height" : 40,
+                    "heightType" : 0,
+                    "id" : "fo2bTdG3H",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
+                    "isExternalMaster" : null,
+                    "isMaster" : false,
+                    "isTarget" : false,
+                    "left" : 0,
+                    "locked" : false,
+                    "name" : "Btn",
+                    "navigationTarget" : "JSGZ0K_SA",
+                    "navigationTransition" : "push",
+                    "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+                    "navigationTransitionDirection" : "left",
+                    "opacity" : 1,
+                    "originalid" : "Dpn5ZH0eJ",
+                    "parentid" : "jUQJtk9cH",
+                    "previewSettings" : null,
+                    "radius" : 20,
+                    "radiusBottomLeft" : 20,
+                    "radiusBottomRight" : 20,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 20,
+                    "radiusTopRight" : 20,
+                    "replicaInfo" : {
+                      "master" : "Dpn5ZH0eJ",
+                      "overrides" : {
+                        "Dpn5ZH0eJ" : {
+                          "bottom" : null,
+                          "centerAnchorX" : 0.5,
+                          "centerAnchorY" : 0.5,
+                          "codeOverrideEnabled" : true,
+                          "codeOverrideFile" : ".\/Examples.tsx",
+                          "codeOverrideIdentifier" : ".\/Examples.tsx_NextQuestion",
+                          "codeOverrideName" : "NextQuestion",
+                          "constraintsLocked" : true,
+                          "left" : 0,
+                          "right" : null,
+                          "top" : 0,
+                          "visible" : true
+                        },
+                        "mKKxakmVY" : {
+                          "styledText" : {
+                            "__class" : "StyledTextDraft",
+                            "blocks" : [
+                              {
+                                "data" : {
+                                  "emptyStyle" : [
+                                    "COLOR:rgb(255, 255, 255)",
+                                    "SIZE:14.79",
+                                    "LETTERSPACING:0.3",
+                                    "ALIGN:center",
+                                    "FONT:GF;PT Sans-700"
+                                  ]
+                                },
+                                "depth" : 0,
+                                "entityRanges" : [
+
+                                ],
+                                "inlineStyleRanges" : [
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "COLOR:rgb(255, 255, 255)"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "SIZE:14.79"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "LETTERSPACING:0.3"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "ALIGN:center"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "FONT:GF;PT Sans-700"
+                                  }
+                                ],
+                                "key" : "32cht",
+                                "text" : "NEXT",
+                                "type" : "unstyled"
+                              }
+                            ],
+                            "cached" : {
+                              "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"32cht-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"32cht-0-0\" style=\"tab-size:4;font-family:&quot;PT Sans&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14.79px;letter-spacing:0.3px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">NEXT<\/span><\/span><\/div><\/div>",
+                              "os" : "macos 10_14 framerx",
+                              "size" : {
+                                "height" : 18,
+                                "width" : 38
+                              },
+                              "width" : 0
+                            },
+                            "entityMap" : {
+
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : 0,
+                    "visible" : true,
+                    "width" : 115,
+                    "widthType" : 0
+                  }
                 ],
-                "clip" : true,
+                "clip" : false,
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "deviceType" : null,
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-bc69a328-33c8-4400-b266-d84cd643dbf5, rgb(255, 255, 255)) \/* {\"name\":\"Action Blue\"} *\/",
-                "fillEnabled" : true,
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
                 "fillImage" : null,
                 "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
@@ -8950,7 +9100,7 @@
                 ],
                 "height" : 40,
                 "heightType" : 0,
-                "id" : "fo2bTdG3H",
+                "id" : "jUQJtk9cH",
                 "intrinsicHeight" : null,
                 "intrinsicWidth" : null,
                 "isExternalMaster" : null,
@@ -8958,106 +9108,29 @@
                 "isTarget" : false,
                 "left" : null,
                 "locked" : false,
-                "name" : "Btn",
-                "navigationTarget" : "JSGZ0K_SA",
+                "name" : null,
+                "navigationTarget" : null,
                 "navigationTransition" : "push",
                 "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
                 "navigationTransitionDirection" : "left",
                 "opacity" : 1,
-                "originalid" : "Dpn5ZH0eJ",
+                "originalid" : null,
                 "parentid" : "i2H8i3zWS",
                 "previewSettings" : null,
-                "radius" : 20,
-                "radiusBottomLeft" : 20,
-                "radiusBottomRight" : 20,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
                 "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
-                "radiusTopLeft" : 20,
-                "radiusTopRight" : 20,
-                "replicaInfo" : {
-                  "master" : "Dpn5ZH0eJ",
-                  "overrides" : {
-                    "Dpn5ZH0eJ" : {
-                      "bottom" : null,
-                      "centerAnchorX" : 0.7982758620689655,
-                      "centerAnchorY" : 0.95545657015590202,
-                      "left" : null,
-                      "right" : null,
-                      "top" : null,
-                      "visible" : false
-                    },
-                    "mKKxakmVY" : {
-                      "styledText" : {
-                        "__class" : "StyledTextDraft",
-                        "blocks" : [
-                          {
-                            "data" : {
-                              "emptyStyle" : [
-                                "COLOR:rgb(255, 255, 255)",
-                                "SIZE:14.79",
-                                "LETTERSPACING:0.3",
-                                "ALIGN:center",
-                                "FONT:GF;PT Sans-700"
-                              ]
-                            },
-                            "depth" : 0,
-                            "entityRanges" : [
-
-                            ],
-                            "inlineStyleRanges" : [
-                              {
-                                "length" : 4,
-                                "offset" : 0,
-                                "style" : "COLOR:rgb(255, 255, 255)"
-                              },
-                              {
-                                "length" : 4,
-                                "offset" : 0,
-                                "style" : "SIZE:14.79"
-                              },
-                              {
-                                "length" : 4,
-                                "offset" : 0,
-                                "style" : "LETTERSPACING:0.3"
-                              },
-                              {
-                                "length" : 4,
-                                "offset" : 0,
-                                "style" : "ALIGN:center"
-                              },
-                              {
-                                "length" : 4,
-                                "offset" : 0,
-                                "style" : "FONT:GF;PT Sans-700"
-                              }
-                            ],
-                            "key" : "32cht",
-                            "text" : "NEXT",
-                            "type" : "unstyled"
-                          }
-                        ],
-                        "cached" : {
-                          "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"32cht-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"32cht-0-0\" style=\"tab-size:4;font-family:&quot;PT Sans&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14.79px;letter-spacing:0.3px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">NEXT<\/span><\/span><\/div><\/div>",
-                          "os" : "macos 10_14 framerx",
-                          "size" : {
-                            "height" : 18,
-                            "width" : 38
-                          },
-                          "width" : 0
-                        },
-                        "entityMap" : {
-
-                        }
-                      }
-                    }
-                  }
-                },
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
                 "right" : null,
                 "rotation" : 0,
                 "top" : null,
-                "visible" : false,
-                "width" : 115,
-                "widthType" : 0
+                "visible" : true,
+                "width" : 1,
+                "widthType" : 3
               }
             ],
             "clip" : false,
@@ -9483,7 +9556,7 @@
                 "aspectRatio" : null,
                 "bottom" : null,
                 "centerAnchorX" : 0.5,
-                "centerAnchorY" : 0.59116541353383456,
+                "centerAnchorY" : 0.34872611464968151,
                 "children" : [
                   {
                     "__class" : "FrameNode",
@@ -10294,8 +10367,8 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
-                "height" : 1,
-                "heightType" : 3,
+                "height" : 256,
+                "heightType" : 0,
                 "id" : "dXbQjN48Z",
                 "intrinsicHeight" : null,
                 "intrinsicWidth" : null,
@@ -10315,7 +10388,7 @@
                 "radiusTopRight" : 0,
                 "right" : null,
                 "rotation" : 0,
-                "top" : null,
+                "top" : 91,
                 "visible" : true,
                 "width" : 1,
                 "widthType" : 3
@@ -10462,6 +10535,222 @@
                 "visible" : false,
                 "width" : 115,
                 "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "blendingEnabled" : 0,
+                "blendingMode" : "normal",
+                "bottom" : 0,
+                "centerAnchorX" : 0.50093283582089554,
+                "centerAnchorY" : 0.96865203761755481,
+                "children" : [
+                  {
+                    "__class" : "FrameNode",
+                    "aspectRatio" : null,
+                    "blendingEnabled" : 0,
+                    "blendingMode" : "normal",
+                    "bottom" : null,
+                    "centerAnchorX" : 0.5,
+                    "centerAnchorY" : 0.5,
+                    "children" : [
+
+                    ],
+                    "clip" : true,
+                    "codeOverrideEnabled" : true,
+                    "codeOverrideFile" : ".\/Examples.tsx",
+                    "codeOverrideIdentifier" : ".\/Examples.tsx_NextQuestion",
+                    "codeOverrideName" : "NextQuestion",
+                    "constraintsLocked" : true,
+                    "deviceType" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "var(--token-bc69a328-33c8-4400-b266-d84cd643dbf5, rgb(255, 255, 255)) \/* {\"name\":\"Action Blue\"} *\/",
+                    "fillEnabled" : true,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "guidesX" : [
+
+                    ],
+                    "guidesY" : [
+
+                    ],
+                    "height" : 40,
+                    "heightType" : 0,
+                    "id" : "XijjEq83Q",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
+                    "isExternalMaster" : null,
+                    "isMaster" : false,
+                    "isTarget" : false,
+                    "left" : 0,
+                    "locked" : false,
+                    "name" : "Btn",
+                    "navigationTarget" : "JSGZ0K_SA",
+                    "navigationTransition" : "push",
+                    "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+                    "navigationTransitionDirection" : "left",
+                    "opacity" : 1,
+                    "originalid" : "Dpn5ZH0eJ",
+                    "parentid" : "qTiUp9KSf",
+                    "previewSettings" : null,
+                    "radius" : 20,
+                    "radiusBottomLeft" : 20,
+                    "radiusBottomRight" : 20,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 20,
+                    "radiusTopRight" : 20,
+                    "replicaInfo" : {
+                      "master" : "Dpn5ZH0eJ",
+                      "overrides" : {
+                        "Dpn5ZH0eJ" : {
+                          "bottom" : null,
+                          "centerAnchorX" : 0.5,
+                          "centerAnchorY" : 0.5,
+                          "codeOverrideEnabled" : true,
+                          "codeOverrideFile" : ".\/Examples.tsx",
+                          "codeOverrideIdentifier" : ".\/Examples.tsx_NextQuestion",
+                          "codeOverrideName" : "NextQuestion",
+                          "constraintsLocked" : true,
+                          "left" : 0,
+                          "right" : null,
+                          "top" : 0,
+                          "visible" : true
+                        },
+                        "mKKxakmVY" : {
+                          "styledText" : {
+                            "__class" : "StyledTextDraft",
+                            "blocks" : [
+                              {
+                                "data" : {
+                                  "emptyStyle" : [
+                                    "COLOR:rgb(255, 255, 255)",
+                                    "SIZE:14.79",
+                                    "LETTERSPACING:0.3",
+                                    "ALIGN:center",
+                                    "FONT:GF;PT Sans-700"
+                                  ]
+                                },
+                                "depth" : 0,
+                                "entityRanges" : [
+
+                                ],
+                                "inlineStyleRanges" : [
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "COLOR:rgb(255, 255, 255)"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "SIZE:14.79"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "LETTERSPACING:0.3"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "ALIGN:center"
+                                  },
+                                  {
+                                    "length" : 4,
+                                    "offset" : 0,
+                                    "style" : "FONT:GF;PT Sans-700"
+                                  }
+                                ],
+                                "key" : "32cht",
+                                "text" : "NEXT",
+                                "type" : "unstyled"
+                              }
+                            ],
+                            "cached" : {
+                              "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"32cht-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"32cht-0-0\" style=\"tab-size:4;font-family:&quot;PT Sans&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14.79px;letter-spacing:0.3px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">NEXT<\/span><\/span><\/div><\/div>",
+                              "os" : "macos 10_14 framerx",
+                              "size" : {
+                                "height" : 18,
+                                "width" : 38
+                              },
+                              "width" : 0
+                            },
+                            "entityMap" : {
+
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : 0,
+                    "visible" : true,
+                    "width" : 115,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "deviceType" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 40,
+                "heightType" : 0,
+                "id" : "qTiUp9KSf",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "navigationTarget" : null,
+                "navigationTransition" : "push",
+                "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+                "navigationTransitionDirection" : "left",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "jHEwNJt4B",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 1,
+                "widthType" : 3
               }
             ],
             "clip" : false,
@@ -16028,6 +16317,16 @@
                         {
                           "length" : 86,
                           "offset" : 0,
+                          "style" : "LETTERSPACING:0.42"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "ALIGN:left"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
                           "style" : "SIZE:24"
                         },
                         {
@@ -16094,16 +16393,6 @@
                           "length" : 86,
                           "offset" : 0,
                           "style" : "LINEHEIGHT:1.2"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "LETTERSPACING:0.42"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "ALIGN:left"
                         }
                       ],
                       "key" : "1qe46",
@@ -27622,6 +27911,31 @@
                       ],
                       "inlineStyleRanges" : [
                         {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "SIZE:24"
+                        },
+                        {
+                          "length" : 2,
+                          "offset" : 34,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
+                          "length" : 2,
+                          "offset" : 57,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 80,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 84,
+                          "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
                           "length" : 2,
                           "offset" : 0,
                           "style" : "FONT:GF;PT Sans-700"
@@ -27675,31 +27989,6 @@
                           "length" : 86,
                           "offset" : 0,
                           "style" : "ALIGN:left"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "SIZE:24"
-                        },
-                        {
-                          "length" : 2,
-                          "offset" : 34,
-                          "style" : "FONT:CMUSerif-Italic"
-                        },
-                        {
-                          "length" : 2,
-                          "offset" : 57,
-                          "style" : "FONT:CMUSerif-Italic"
-                        },
-                        {
-                          "length" : 1,
-                          "offset" : 80,
-                          "style" : "FONT:CMUSerif-Italic"
-                        },
-                        {
-                          "length" : 1,
-                          "offset" : 84,
-                          "style" : "FONT:CMUSerif-Italic"
                         }
                       ],
                       "key" : "1qe46",
