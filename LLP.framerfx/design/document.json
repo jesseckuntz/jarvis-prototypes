@@ -61,16 +61,6 @@
                       ],
                       "inlineStyleRanges" : [
                         {
-                          "length" : 2,
-                          "offset" : 0,
-                          "style" : "FONT:GF;PT Sans-700"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "COLOR:rgb(0, 0, 0)"
-                        },
-                        {
                           "length" : 3,
                           "offset" : 81,
                           "style" : "FONT:CMUSerif-Roman"
@@ -139,6 +129,16 @@
                           "length" : 1,
                           "offset" : 84,
                           "style" : "FONT:CMUSerif-Italic"
+                        },
+                        {
+                          "length" : 2,
+                          "offset" : 0,
+                          "style" : "FONT:GF;PT Sans-700"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "COLOR:rgb(0, 0, 0)"
                         }
                       ],
                       "key" : "1qe46",
@@ -10833,31 +10833,6 @@
                       ],
                       "inlineStyleRanges" : [
                         {
-                          "length" : 3,
-                          "offset" : 81,
-                          "style" : "FONT:CMUSerif-Roman"
-                        },
-                        {
-                          "length" : 32,
-                          "offset" : 2,
-                          "style" : "FONT:GF;PT Sans-regular"
-                        },
-                        {
-                          "length" : 21,
-                          "offset" : 36,
-                          "style" : "FONT:GF;PT Sans-regular"
-                        },
-                        {
-                          "length" : 21,
-                          "offset" : 59,
-                          "style" : "FONT:GF;PT Sans-regular"
-                        },
-                        {
-                          "length" : 1,
-                          "offset" : 85,
-                          "style" : "FONT:GF;PT Sans-regular"
-                        },
-                        {
                           "length" : 1,
                           "offset" : 80,
                           "style" : "ITALIC"
@@ -10911,6 +10886,31 @@
                           "length" : 86,
                           "offset" : 0,
                           "style" : "COLOR:rgb(0, 0, 0)"
+                        },
+                        {
+                          "length" : 3,
+                          "offset" : 81,
+                          "style" : "FONT:CMUSerif-Roman"
+                        },
+                        {
+                          "length" : 32,
+                          "offset" : 2,
+                          "style" : "FONT:GF;PT Sans-regular"
+                        },
+                        {
+                          "length" : 21,
+                          "offset" : 36,
+                          "style" : "FONT:GF;PT Sans-regular"
+                        },
+                        {
+                          "length" : 21,
+                          "offset" : 59,
+                          "style" : "FONT:GF;PT Sans-regular"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 85,
+                          "style" : "FONT:GF;PT Sans-regular"
                         }
                       ],
                       "key" : "1qe46",
@@ -26128,16 +26128,6 @@
                       ],
                       "inlineStyleRanges" : [
                         {
-                          "length" : 1,
-                          "offset" : 80,
-                          "style" : "ITALIC"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "LINEHEIGHT:1.2"
-                        },
-                        {
                           "length" : 86,
                           "offset" : 0,
                           "style" : "LETTERSPACING:0.42"
@@ -26206,6 +26196,16 @@
                           "length" : 1,
                           "offset" : 85,
                           "style" : "FONT:GF;PT Sans-regular"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 80,
+                          "style" : "ITALIC"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.2"
                         }
                       ],
                       "key" : "1qe46",
@@ -27917,9 +27917,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -28073,9 +28073,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -28229,9 +28229,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -28385,9 +28385,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -30144,9 +30144,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -30300,9 +30300,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -30456,9 +30456,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -30612,9 +30612,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -32029,9 +32029,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 84,
+            "bottom" : -265,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.56444444444444442,
+            "centerAnchorY" : 0.98529914529914531,
             "children" : [
               {
                 "__class" : "TextNode",
@@ -32075,16 +32075,6 @@
 
                       ],
                       "inlineStyleRanges" : [
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "LETTERSPACING:0.42"
-                        },
-                        {
-                          "length" : 86,
-                          "offset" : 0,
-                          "style" : "ALIGN:left"
-                        },
                         {
                           "length" : 86,
                           "offset" : 0,
@@ -32154,6 +32144,16 @@
                           "length" : 86,
                           "offset" : 0,
                           "style" : "LINEHEIGHT:1.2"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0.42"
+                        },
+                        {
+                          "length" : 86,
+                          "offset" : 0,
+                          "style" : "ALIGN:left"
                         }
                       ],
                       "key" : "1qe46",
@@ -32371,9 +32371,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -32527,9 +32527,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -32683,9 +32683,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -32839,9 +32839,9 @@
                               "os" : "macos 10_14 framerx",
                               "size" : {
                                 "height" : 24,
-                                "width" : 101
+                                "width" : 469
                               },
-                              "width" : 100
+                              "width" : 468
                             },
                             "entityMap" : {
 
@@ -33146,7 +33146,7 @@
               }
             ],
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.15111111111111111,
+            "centerAnchorY" : 0.046495726495726496,
             "children" : [
               {
                 "__class" : "CodeComponentNode",
@@ -33416,7 +33416,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.056111111111111112,
+            "centerAnchorY" : 0.017264957264957265,
             "children" : [
               {
                 "__class" : "ShapeContainerNode",
@@ -34117,90 +34117,11 @@
             "widthType" : 0
           },
           {
-            "__class" : "FrameNode",
-            "aspectRatio" : 0.25172074729596855,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "bottom" : null,
-            "boxShadows" : [
-              {
-                "__class" : "BoxShadow",
-                "blur" : 5,
-                "color" : "rgba(0,0,0,0.25)",
-                "enabled" : true,
-                "inset" : false,
-                "spread" : 0,
-                "x" : 0,
-                "y" : 2
-              }
-            ],
-            "centerAnchorX" : 0.51249999999999996,
-            "centerAnchorY" : 0.56073640743289743,
-            "children" : [
-
-            ],
-            "clip" : false,
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : true,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : true,
-            "fillImage" : "0VYWIzQoTp6cySpQPKwPs337Bw.png",
-            "fillImageOriginalName" : "Stopping point for now.png",
-            "fillImagePixelHeight" : 6102,
-            "fillImagePixelWidth" : 1536,
-            "fillImageResize" : "fill",
-            "fillType" : "image",
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 3051,
-            "heightType" : 0,
-            "id" : "rAf3lfFis",
-            "intrinsicHeight" : 3051,
-            "intrinsicWidth" : 768,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : null,
-            "locked" : false,
-            "name" : "Stopping_point_for_now",
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
-            "opacity" : 1,
-            "originalFilename" : "Stopping point for now.png",
-            "originalid" : null,
-            "parentid" : "rRn7h4SD_",
-            "previewSettings" : null,
-            "radius" : 4,
-            "radiusBottomLeft" : 4,
-            "radiusBottomRight" : 4,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 4,
-            "radiusTopRight" : 4,
-            "replicaInfo" : null,
-            "right" : null,
-            "rotation" : 0,
-            "top" : 104,
-            "visible" : true,
-            "width" : 768,
-            "widthType" : 0
-          },
-          {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.056111111111111112,
+            "centerAnchorY" : 0.017264957264957265,
             "children" : [
               {
                 "__class" : "FrameNode",
@@ -34892,6 +34813,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"82g31-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"82g31-0-0\" style=\"tab-size:4;font-family:&quot;PT Sans&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:24px;letter-spacing:0.42px;line-height:1;font-weight:400;font-style:normal\"><span data-text=\"true\">SAT Math Assessment<\/span><\/span><\/div>",
+                    "os" : "macos 10_14 framerx",
+                    "size" : {
+                      "height" : 24,
+                      "width" : 232
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -34955,6 +34885,85 @@
             "visible" : true,
             "width" : 600,
             "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : 0.21451555237754738,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "bottom" : 27,
+            "boxShadows" : [
+              {
+                "__class" : "BoxShadow",
+                "blur" : 5,
+                "color" : "rgba(0,0,0,0.25)",
+                "enabled" : true,
+                "inset" : false,
+                "spread" : 0,
+                "x" : 0,
+                "y" : 2
+              }
+            ],
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.51264957264957267,
+            "children" : [
+
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : "8Eenxh3h7radfl5Cb4HjgPv6gbE.png",
+            "fillImageOriginalName" : "Stopping point for now Copy.png",
+            "fillImagePixelHeight" : 5594,
+            "fillImagePixelWidth" : 1200,
+            "fillImageResize" : "fill",
+            "fillType" : "image",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 2797,
+            "heightType" : 0,
+            "id" : "UZS2UDz8P",
+            "intrinsicHeight" : 2797,
+            "intrinsicWidth" : 600,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : null,
+            "locked" : false,
+            "name" : "Stopping_point_for_now_Copy",
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "opacity" : 1,
+            "originalFilename" : "Stopping point for now Copy.png",
+            "originalid" : null,
+            "parentid" : "rRn7h4SD_",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 101,
+            "visible" : true,
+            "width" : 600,
+            "widthType" : 0
           }
         ],
         "clip" : true,
@@ -34978,7 +34987,7 @@
         "guidesY" : [
 
         ],
-        "height" : 3274,
+        "height" : 2925,
         "heightType" : 0,
         "id" : "rRn7h4SD_",
         "intrinsicHeight" : null,
