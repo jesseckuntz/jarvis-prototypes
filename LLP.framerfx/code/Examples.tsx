@@ -53,8 +53,10 @@ export function Answer(props): Override {
 }
 
 export function Page(props): Override {
+    const pages = props.children[0].props.children
     return {
         currentPage: data.currentQuestion,
+        height: pages[data.currentQuestion].props.height,
     }
 }
 
