@@ -14,6 +14,8 @@
 	},
 	"author": "Jesse Kuntz",
 	"dependencies": {
+		"@framer/benjamin.input": "^1.4.0",
+		"@framer/framer.lottie": "^1.1.0",
 		"@framer/mikejohnson.material-icons": "^1.3.0",
 		"@framer/steveruizok.flow": "^1.55.0"
 	}

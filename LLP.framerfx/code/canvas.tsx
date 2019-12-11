@@ -1,7 +1,7 @@
 // WARNING: this file is auto generated, any changes will be lost
 import { createDesignComponent, CanvasStore } from "framer"
 const canvas = CanvasStore.shared(); // CANVAS_DATA;
-export const Answer = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Text?:string,Option?:string}>(canvas, "id_Dv2ggK5jo", {Text:"string",Option:"string"}, 288,42);
+export const Answer = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Text?:string,Option_White?:string,Option_Black?:string}>(canvas, "id_Dv2ggK5jo", {Text:"string",Option_White:"string",Option_Black:"string"}, 288,42);
 export const Assessment_Title = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Title?:string}>(canvas, "id_d3wwVuUXF", {Title:"string"}, 600,37);
 
 export const colors = Object.freeze({
